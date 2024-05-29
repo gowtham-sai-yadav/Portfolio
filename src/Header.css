@@ -1,0 +1,41 @@
+.navbar-brand-name{
+    text-decoration: none;
+    padding:0 15px 15px 15px;
+    color: #351458;
+    font-family: "Lovely Home";
+    font-size: 50px;
+    font-weight: 1050;
+}
+.entire-nav{
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    
+}
+.nav-bar{
+    display:flex;
+    list-style: none;
+    font-size: 25px;
+   
+}
+.nav-item{
+    margin:0 15px;
+}
+.nav-item a{
+    color: grey;
+    text-decoration: none;
+    padding: 5px 0;
+}
+.nav-item a::after{
+    content:"";
+    display:block;
+    height:2px;
+    width: 0;
+    background: black;
+    transition: width 0.3s ease;
+
+}
+.nav-item a:hover::after {
+    width: 100%;
+    cursor: pointer;
+}

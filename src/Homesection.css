@@ -1,0 +1,82 @@
+#first-home{
+   background-color: #fefcfe;
+   display: flex;
+   flex-wrap: wrap;
+   font-weight: 400;
+   text-align: left;
+}
+.home{
+    display: block;
+}
+img{
+    position: absolute;
+    right:0;
+}
+.hello{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+    color:#868e96;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 1px;
+}
+.first-col{
+    position: relative;
+    max-width: 50%;
+    text-align: left;
+    flex: 0 0 50%;
+}
+span.wave{
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+*{
+    box-sizing: border-box;
+}
+.first-col{
+    text-align: left;
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+  width: 4.37rem;
+  height: 4.37rem;
+  background: #e9e9e9;
+  padding: 0px 0px;
+  margin: 30px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+
+  
+}
+.btn:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+  }
+  .fab {
+    line-height: 1px;
+    font-size: 0.625rem;
+    transition: 0.2s linear;
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  height: 2.5rem;
+  width: 2.5rem;
+  text-rendering: auto;
+  margin: 10px;
+
+  }
+  
